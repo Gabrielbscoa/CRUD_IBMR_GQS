@@ -1,0 +1,2 @@
+# CRUD_IBMR_GQS
+Trabalho IBMR aula GQS 09/10/2023
