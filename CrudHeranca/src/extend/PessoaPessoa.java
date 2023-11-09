@@ -1,7 +1,7 @@
 package extend;
 
 public class PessoaPessoa {
-
+    
     private String nome;
     private int idade;
 
@@ -11,7 +11,7 @@ public class PessoaPessoa {
         this.idade = idade;
     }
 
-    
+   
     public String getNome() {
         return nome;
     }
@@ -28,7 +28,7 @@ public class PessoaPessoa {
         this.idade = idade;
     }
 
- 
+   
     @Override
     public String toString() {
         return "PessoaPessoa{" +
