@@ -5,14 +5,12 @@ public class PessoaPessoa {
     private String nome;
     private int idade;
 
-    // Construtor da classe PessoaPessoa
     public PessoaPessoa(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
     }
 
-   
-    public String getNome() {
+     public String getNome() {
         return nome;
     }
 
@@ -28,7 +26,6 @@ public class PessoaPessoa {
         this.idade = idade;
     }
 
-   
     @Override
     public String toString() {
         return "PessoaPessoa{" +
