@@ -1,4 +1,4 @@
-public class PessoaFisica extends Pessoa implements OperacoesCRUD {
+public class PessoaFisica extends Pessoa implements PessoaPessoa {
     private int cpf;
 
     public PessoaFisica() {
@@ -19,25 +19,25 @@ public class PessoaFisica extends Pessoa implements OperacoesCRUD {
 
     @Override
     public void criar() {
-        // Implementation for creating Pessoa Física
+     
         System.out.println("Criando Pessoa Física: " + getNome());
     }
 
     @Override
     public void ler() {
-        // Implementation for reading Pessoa Física
+        
         System.out.println("Lendo Pessoa Física: " + getNome());
     }
 
     @Override
     public void atualizar() {
-        // Implementation for updating Pessoa Física
+        
         System.out.println("Atualizando Pessoa Física: " + getNome());
     }
 
     @Override
     public void deletar() {
-        // Implementation for deleting Pessoa Física
+     
         System.out.println("Deletando Pessoa Física: " + getNome());
     }
 }
